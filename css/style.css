@@ -84,7 +84,7 @@ nav ul li a:visited {
 }
 .first_SectionMain {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -104,7 +104,7 @@ nav ul li a:visited {
   color: #fff;
   font-size: 1.4rem;
   font-weight: 500;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -208,20 +208,22 @@ nav ul li a:visited {
   padding: 2rem 2rem;
 }
 .fetch {
-  width: 50%;
-  margin: auto auto;
+  width: 100%;
   height: 40rem;
   border-radius: 0.7rem;
   box-shadow: 0 2px 10px rgb(0, 0, 0, 0.2);
   background-color: #fff;
 }
 .ApiFetch {
-  width: 100%;
+  width: 800%;
   padding: 2rem 1rem;
   display: flex;
   justify-content: space-between;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 400;
+}
+.ApiFetch p {
+  font-size: 0.9rem;
 }
 #fetchCoin {
   font-size: 2rem;
@@ -326,63 +328,63 @@ footer ul li {
   justify-content: space-between;
 }
 
-.overlay{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 510vh;
-    background-color: rgba(0, 0, 0, 0.301);
-    z-index: 4;
+.overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 510vh;
+  background-color: rgba(0, 0, 0, 0.301);
+  z-index: 4;
 }
-.OverlayPayment{
-    position: absolute;
-    top: 250%;
-    left: 30%;
-    z-index: 5; 
+.OverlayPayment {
+  position: absolute;
+  top: 250%;
+  left: 30%;
+  z-index: 5;
 }
-.OverlayPayment i{
-    color: #fff;
-    font-size: 3rem;
-    font-weight: bold;
-    cursor: pointer;
+.OverlayPayment i {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
 }
-form{
-    width: 100%;
-    height: 40rem;
-    background-color: #fff;
-    margin: auto auto;
-    text-align: center;
-    padding-top: 10rem;
-    border-radius: .7rem;
+form {
+  width: 100%;
+  height: 40rem;
+  background-color: #fff;
+  margin: auto auto;
+  text-align: center;
+  padding-top: 10rem;
+  border-radius: 0.7rem;
 }
-form p{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+form p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
-form input{
-    padding: 1rem 3rem;
-    border: none;
-    margin-bottom: 2rem;
+form input {
+  padding: 1rem 3rem;
+  border: none;
+  margin-bottom: 2rem;
 }
-.buyNow{
-    padding: 2rem 3rem;
-    text-decoration: none;
-    font-size: 1.6rem;
-    display: inline-block;
-    border-radius: .7rem;
-    margin-top: .2rem;
-    background-color: rgb(255, 187, 0);
+.buyNow {
+  padding: 2rem 3rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline-block;
+  border-radius: 0.7rem;
+  margin-top: 0.2rem;
+  background-color: rgb(255, 187, 0);
 }
-.together{
-    display: flex;
-    width: 100%;
-    border: 1px solid gray;     
+.together {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray;
 }
-select option{
-    width: 3%;
+select option {
+  width: 3%;
 }
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
